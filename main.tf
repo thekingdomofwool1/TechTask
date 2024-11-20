@@ -1,5 +1,5 @@
 provider "kubernetes" {
-  config_path    = "~/.kube/config"                #consider reworking this to create a remote context and auth
+  config_path    = "~/.kube/config"                
   config_context = "my-context"
 }
 
